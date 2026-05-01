@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remove upstream stubs that conflict with your trees -->
-  <remove-project name="android_device_oneplus_avalon" />
-  <remove-project name="android_device_oneplus_sm8650-common" />
-  <remove-project name="android_kernel_oneplus_sm8650" />
-  <remove-project name="android_hardware_oplus" />
-
   <!-- Your GitHub remote -->
   <remote name="sathiya"
           fetch="https://github.com/SathiyaSenpai" />
