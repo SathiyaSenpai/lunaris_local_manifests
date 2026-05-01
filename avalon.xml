@@ -39,10 +39,9 @@
            revision="lineage-23.2" />
 
   <!-- Vendor blobs — TheMuppets (pre-extracted, no local unpacking needed) -->
-  <project name="proprietary_vendor_oneplus"
-           path="vendor/oneplus"
+  <project name="proprietary_vendor_oneplus_avalon"
+           path="vendor/oneplus/avalon"
            remote="github"
-           groups="muppets"
            revision="lineage-23.2"
            clone-depth="1" />
 
