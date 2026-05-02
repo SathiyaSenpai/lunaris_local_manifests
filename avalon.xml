@@ -9,13 +9,13 @@
   <project name="android_device_oneplus_avalon"
            path="device/oneplus/avalon"
            remote="sathiya"
-           revision="lunaris-16" />
+           revision="lineage-23.2" />
 
   <!-- Common sm8650 tree -->
   <project name="android_device_oneplus_sm8650-common"
            path="device/oneplus/sm8650-common"
            remote="sathiya"
-           revision="lunaris-16" />
+           revision="lineage-23.2" />
 
   <!-- Kernel — all 3 repos required (path = sm8650 NOT sm7675) -->
   <project name="android_kernel_oneplus_sm8650"
@@ -36,14 +36,13 @@
   <!-- Vendor blobs — TheMuppets (pre-extracted, no local unpacking needed) -->
   <project name="proprietary_vendor_oneplus_avalon"
            path="vendor/oneplus/avalon"
-           remote="github"
+           remote="sathiya"
            revision="lineage-23.2"
            clone-depth="1" />
 
   <project name="proprietary_vendor_oneplus_sm8650-common"
            path="vendor/oneplus/sm8650-common"
-           remote="github"
-           groups="muppets"
+           remote="sathiya"
            revision="lineage-23.2"
            clone-depth="1" />
 
